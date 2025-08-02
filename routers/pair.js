@@ -15,7 +15,7 @@ const SESSIONS_API_URL = process.env.SESSIONS_API_URL;
 const SESSIONS_API_KEY = process.env.SESSIONS_API_KEY;
 
 const {
-    default: Gifted_Tech,
+    default: CSS_Tech,
     useMultiFileAuthState,
     delay,
     makeCacheableSignalKeyStore,
@@ -110,7 +110,7 @@ router.get('/', async (req, res) => {
 *✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
 ______________________________
 ╔════◇
-║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
+║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐂𝐒𝐒 』
 ╚══════════════╝
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
@@ -127,7 +127,7 @@ ______________________________
 Use the Quoted Session ID to Deploy your Bot.
 Validate it First Using the Validator Link.`;
 
-                        await Gifted.sendMessage(Gifted.user.id, { text: GIFTED_TEXT }, { quoted: session });
+                        await Gifted.sendMessage(Gifted.user.id, { text: CSSTEXT }, { quoted: session });
                     } catch (err) {
                         console.error('Error in connection update:', err);
                     } finally {
@@ -150,7 +150,7 @@ Validate it First Using the Validator Link.`;
         }
     }
 
-    await GIFTED_PAIR_CODE();
+    await CSS_PAIR_CODE();
 });
 
 module.exports = router;
