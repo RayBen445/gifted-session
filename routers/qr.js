@@ -1,5 +1,5 @@
 const {
-    default: Gifted_Tech,
+    default: CSS_Tech,
     useMultiFileAuthState,
     Browsers,
     delay,
@@ -110,7 +110,7 @@ router.get("/", async (req, res) => {
 *✅ SESSION ID GENERATED ✅*
 ______________________________
 ╔════◇
-║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
+║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐂𝐒𝐒 』
 ╚══════════════╝
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
@@ -121,13 +121,13 @@ ______________________________
 ║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb3hlgX5kg7G0nFggl0Y_
 ║ 💜💜💜
 ╚══════════════╝ 
-𝗚𝗜𝗙𝗧𝗘𝗗-𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 5.𝟬.𝟬
+𝐂𝐒𝐒 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 1.𝟬.𝟬
 ______________________________
 
 Use the Quoted Session ID to Deploy your Bot
 Validate it First Using the Validator Link.`; 
                             
-                            await Gifted.sendMessage(Gifted.user.id, { text: GIFTED_TEXT }, { quoted: session });
+                            await Gifted.sendMessage(Gifted.user.id, { text: CSS_TEXT }, { quoted: session });
                             await delay(1000);
                             await Gifted.ws.close();
                             await removeFile(authDir);
