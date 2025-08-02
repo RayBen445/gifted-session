@@ -1,16 +1,16 @@
 {
-  "description": "gifted-pair-code",
+  "description": "cool shot systems-pair-code",
   "main": "./index.js",
   "type": "commonjs",
   "engines": {
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name gifted",
+    "start": "pm2 start index.js --deep-monitoring --attach --name prof",
     "stop": "pm2 stop gifted",
     "restart": "pm2 restart gifted"
   },
-  "author": "Gifted Tech",
+  "author": "Prof Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
     "awesome-phonenumber": "^2.64.0",
